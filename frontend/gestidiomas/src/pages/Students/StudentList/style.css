@@ -1,0 +1,114 @@
+.student-list-container {
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.search input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  width: 1500px;
+  outline: none;
+}
+
+.search button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: #45a049;
+}
+
+.buttons-actions {
+  display: flex;
+}
+
+.buttons-actions button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons-actions button:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+td.buttons button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+td.buttons button:hover {
+  background-color: #45a049;
+}
+
+td a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+p.error {
+  color: red;
+  text-align: center;
+}
+
+p.loading {
+  text-align: center;
+  color: #4CAF50;
+}

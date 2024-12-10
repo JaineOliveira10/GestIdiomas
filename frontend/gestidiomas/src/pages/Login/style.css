@@ -1,0 +1,79 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    /* Melhora a tipografia */
+}
+
+.login-container {
+    width: 400px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /* Aumenta a borda arredondada */
+    background-color: #fff;
+    /* Fundo branco */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra sutil */
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    /* Aumenta o espaçamento entre os campos */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    /* Aumenta o espaçamento das labels */
+    text-align: left;
+    font-weight: bold;
+    /* Destaque nas labels */
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra no hover */
+}
+
+.error {
+    color: red;
+    margin-top: 15px;
+    font-weight: bold;
+    /* Destaque para a mensagem de erro */
+}
